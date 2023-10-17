@@ -1,7 +1,5 @@
 class FibonacciController < ApplicationController
-  def root
-    "please enter yrl '/fib?n=x'"
-  end
+  
 
   def calculate
     if params[:n] =~ /^[1-9]\d*$/
