@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  Rails.application.routes.draw do
-    root "home#index"
-  end
+  root "home#index"
   get "fib" , to: "fibonacci#calculate"
 end
