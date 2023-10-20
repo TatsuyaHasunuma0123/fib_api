@@ -21,5 +21,5 @@ rails s
   - パラメータが5,10,1,0,"string"の際のtestを記述
 ## 補足
 - ```rails new fibonacci --api```で雛形を作成
-- ```rails generate controller Home index``` でコントローラ及びtestを作成
+- ```rails generate controller``` でコントローラ及びtestを作成
 
